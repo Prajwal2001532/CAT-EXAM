@@ -1,0 +1,62 @@
+.header
+{position: relative;
+margin: 0;
+
+padding-bottom: 6rem;
+min-height: 80%;
+font-family: "Segoe UI";
+font-weight: 200;
+
+height:50px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;                     
+    padding: 0;
+    overflow: hidden;
+    background: color fedbd 0;
+    font-size:x-large;
+    font-family: "Segoe UI";
+  }
+
+  li{
+    float:left;
+  }
+
+  li.toggle {
+    float: right;
+  }
+
+  
+  li a {
+    display: block;
+    color: #111;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+    color:seashell;
+  }
+
+
+#tableSection {
+    font-size: 1.1em;
+}
+
+#tableSection table {
+    background-color: white;
+}
+
+#tableSection table, #tableSection td, #tableSection th{
+    border: 1px solid;
+}
+
+#tableSection th{
+    cursor: pointer;
+    color: white;
+    border-color: black;
+}
